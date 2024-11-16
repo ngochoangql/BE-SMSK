@@ -1,0 +1,19 @@
+{
+    "name": "smart-socket-backend",
+    "version": "1.0.0",
+    "description": "Backend for WebSocket",
+    "main": "src/server.js",
+    "scripts": {
+      "start": "node src/server.js",
+      "dev": "nodemon src/server.js"
+    },
+    "dependencies": {
+      "express": "^4.18.2",
+      "ws": "^8.13.0",
+      "redis": "^4.6.5"
+    },
+    "devDependencies": {
+      "nodemon": "^3.0.1"
+    }
+  }
+  
